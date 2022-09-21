@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IoT Security Lab Docs</title>
-    <link>https://iot-security-lab.github.io/</link>
-    <description>Recent content on IoT Security Lab Docs</description>
+    <title>Introductions on IoT Security Lab Docs</title>
+    <link>https://iot-security-lab.github.io/introduction/</link>
+    <description>Recent content in Introductions on IoT Security Lab Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Sep 2022 21:04:57 -0500</lastBuildDate><atom:link href="https://iot-security-lab.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Sep 2022 21:04:57 -0500</lastBuildDate><atom:link href="https://iot-security-lab.github.io/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
       <link>https://iot-security-lab.github.io/introduction/Introduction/</link>
@@ -14,16 +14,6 @@
       
       <guid>https://iot-security-lab.github.io/introduction/Introduction/</guid>
       <description>IotSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA).</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://iot-security-lab.github.io/post/test/</link>
-      <pubDate>Tue, 20 Sep 2022 13:59:29 -0500</pubDate>
-      
-      <guid>https://iot-security-lab.github.io/post/test/</guid>
-      <description>This is some content
-public static void main(String []args) { System.out.println(&amp;#34;This is a print statement&amp;#34;); } </description>
     </item>
     
   </channel>
