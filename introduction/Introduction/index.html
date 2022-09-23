@@ -9,10 +9,10 @@
 <meta name="referrer" content="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="color-scheme" content="light dark" />
-<meta name="generator" content="Hugo 0.102.3" />
+<meta name="generator" content="Hugo 0.103.0" />
 
 
-  <meta name="description" content="IotSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA)." />
+  <meta name="description" content="IoTSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA)." />
 
     <title>Introduction | IoT Security Lab Docs</title>
 
@@ -38,7 +38,7 @@
     content="Introduction"
   />
   <meta property="og:site_name" content="IoT Security Lab Docs" />
-  <meta property="og:description" content="IotSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA)." />
+  <meta property="og:description" content="IoTSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://iot-security-lab.github.io/introduction/Introduction/" />
 
@@ -55,7 +55,7 @@
 
   <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Introduction" />
-  <meta name="twitter:description" content="IotSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA)." />
+  <meta name="twitter:description" content="IoTSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA)." />
 
 
   <script type="application/ld+json">
@@ -66,8 +66,8 @@
       "name": "Introduction",
       "url" : "https://iot-security-lab.github.io/introduction/Introduction/",
       "headline": "Introduction",
-      "description": "IotSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA).",
-      "wordCount" : "78",
+      "description": "IoTSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA).",
+      "wordCount" : "299",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -195,7 +195,7 @@
         <span class="flex align-center">
           <img
             class="gdoc-brand__img"
-            src="/brand.svg"
+            src="/logo.png"
             alt=""
           />
           <span class="gdoc-brand__title">IoT Security Lab Docs</span>
@@ -504,7 +504,7 @@
   
     justify-between
   
-  hidden-mobile
+  
   "
   itemprop="breadcrumb"
 >
@@ -541,6 +541,17 @@
     </div>
   
   
+    <div>
+      <span class="editpage">
+        <svg class="gdoc-icon gdoc_code"><use xlink:href="#gdoc_code"></use></svg>
+        <a
+          href="https://iot-security-lab.github.io/edit/main/exampleSite/content/introduction/Introduction.md"
+        >
+          Edit page
+        </a>
+      </span>
+    </div>
+  
 </div>
 
 
@@ -549,8 +560,30 @@
     class="gdoc-markdown gdoc-markdown__align--left"
   >
     <h1>Introduction</h1>
-    <p>IotSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio.
+    <p>IoTSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio.
 The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA).</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="system-architecture">
+        System Architecture
+        <a data-clipboard-text="https://iot-security-lab.github.io/introduction/Introduction/#system-architecture" class="gdoc-page__anchor clip flex align-center" title="Anchor to: System Architecture" aria-label="Anchor to: System Architecture" href="#system-architecture">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<p>The IoTSec computations system consists of 2 mainly computing servers divided into nodes. A node is an abstraction to represent a virtual system designated for a specific purpose, for example, the login node which is shared among all users.</p>
+<p>Several users may be logged on at one time accessing the file systems. Dozens (sometimes hundreds) of jobs may be running on the login node and the resources are shared and equally divided in a first-come-first-server basis. In this way, the login nodes provide an interface to interact with any of the components and is the main point of entry.</p>
+<p>Think of the login node as a prep area, where users may edit and manage files, compile short pieces of code, perform file management, issue transfers, submit and track existing jobs and more.
+In the other hand, the compute nodes are where actual computations occur and where research is performed. All batch jobs, as well as development and debuggin sessions, must be run on the compute nodes. To access the compute nodes, one must either submit a job to node queue or initate an interactive session using the idev utility.</p>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Important"></i></div>
+  <div class="gdoc-hint__text"><strong>Do not run</strong> jobs or perform intensive computational activity on the login nodes or the shared file systems. Your account may be suspended if your jobs are impacting other users.</div>
+</blockquote>
+
 
   </article>
 
