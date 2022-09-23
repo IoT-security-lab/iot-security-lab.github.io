@@ -6,14 +6,34 @@
     <description>Recent content in Introductions on IoT Security Lab Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Sep 2022 21:04:57 -0500</lastBuildDate><atom:link href="https://iot-security-lab.github.io/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Sep 2022 13:04:57 -0500</lastBuildDate><atom:link href="https://iot-security-lab.github.io/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Access</title>
+      <link>https://iot-security-lab.github.io/introduction/Access/</link>
+      <pubDate>Fri, 23 Sep 2022 13:04:57 -0500</pubDate>
+      
+      <guid>https://iot-security-lab.github.io/introduction/Access/</guid>
+      <description>Access to all the systems requires Password Authentication or Public Key Authentication. By default, both options are enable, however, is recommended to use Public Key Authentication. The standard and recommneded method to access is by Secure Shell (SSH). In addition, SSH also includes support for the file transfers utilities scp and sftp. Wikipedia is a good source of information on SSH.
+However, you can also access a graphical user interface (GUI) by using the NoMachine app.</description>
+    </item>
+    
     <item>
       <title>Introduction</title>
       <link>https://iot-security-lab.github.io/introduction/Introduction/</link>
       <pubDate>Tue, 20 Sep 2022 21:04:57 -0500</pubDate>
       
       <guid>https://iot-security-lab.github.io/introduction/Introduction/</guid>
-      <description>IoTSec Lambda computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA).</description>
+      <description>IoTSec computation server is the primary resource for any computational needs including data analysis, machine learning workloads and high-performance computing for any member or student of the IoTSecurity Laboratory in Department of Electrical and Computer Engineering of the University of Texas at San Antonio. The server offers the latest technology available with the best Data-Center GPUs delivering unprecedented acceleration at every scale to power the Data Research Center in the University of Texas at San Antonio (UTSA).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://iot-security-lab.github.io/introduction/System-Overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot-security-lab.github.io/introduction/System-Overview/</guid>
+      <description>System Architecture The IoTSec computations system consists of 2 mainly computing servers divided into nodes. A node is an abstraction to represent a virtual system designated for a specific purpose, for example, the login node which is shared among all users.
+Several users may be logged on at one time accessing the file systems. Dozens (sometimes hundreds) of jobs may be running on the login node and the resources are shared and equally divided in a first-come-first-server basis.</description>
     </item>
     
   </channel>

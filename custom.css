@@ -39,8 +39,8 @@
 
   --footer-background: #f15a22;
   --footer-font-color: #ffffff;
-  --footer-link-color: #ffde96;
-  --footer-link-color-visited: #ffcc5c;
+  --footer-link-color: #0c2340;
+  --footer-link-color-visited: #0c2340;
 }
 @media (prefers-color-scheme: light) {
   :root {
@@ -75,8 +75,8 @@
 
     --footer-background: #f15a22;
     --footer-font-color: #ffffff;
-    --footer-link-color: #ffde96;
-    --footer-link-color-visited: #ffcc5c;
+    --footer-link-color: #0c2340;
+    --footer-link-color-visited: #0c2340;
   }
 }
 
@@ -113,8 +113,8 @@
 
   --footer-background: #f15a22;
   --footer-font-color: #ffffff;
-  --footer-link-color: #ffde96;
-  --footer-link-color-visited: #ffcc5c;
+  --footer-link-color: #0c2340;
+  --footer-link-color-visited: #0c2340;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -149,7 +149,7 @@
 
     --footer-background: #f15a22;
     --footer-font-color: #ffffff;
-    --footer-link-color: #ffde96;
-    --footer-link-color-visited: #ffcc5c;
+    --footer-link-color: #0c2340;
+    --footer-link-color-visited: #0c2340;
   }
 }
