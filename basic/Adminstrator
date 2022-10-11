@@ -1,0 +1,7 @@
+# Adminstrator
+
+* Describe your issue as precisely and completely as you can what you did, what happened, verbatim error messages, other meaningful output. When appropriate, include the information a consultant would need to find your artifacts and understand your workflow: e.g. the directory containing your build and/or job script; the modules you were using; relevant job numbers; and recent changes in your workflow that could affect or explain the behavior you're observing.
+
+* Have realistic expectations. Consultants can address system issues and answer questions.They may offer general advice that will help you build, debug, optimize, or modify your code, but you shouldn't expect them to do these things for you.
+
+* Be patient. It may take a business day for a consultant to get back to you. If the admins disable your account, it's not punitive. When the file system is in danger of crashing, or a login node hangs, they don't have time to notify you before taking action.
