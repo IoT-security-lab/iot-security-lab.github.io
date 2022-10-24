@@ -9,11 +9,10 @@
 <meta name="referrer" content="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="color-scheme" content="light dark" />
-<meta name="generator" content="Hugo 0.103.0" />
+<meta name="generator" content="Hugo 0.102.3" />
 
 
-  <meta name="description" content="File Systems IoT Security lab servers mounts two shared ext4 file systems (FS) on which each user has corresponding node-specific directories $HOME and $WORK. In the login node, both FS are available, however, in the compute nodes, only the work directory is accessable. There is an alias to traverse between the FS, cdw to go to $WORK.
-In addition, there are directories for storing large datasets under /srv/datasets which are globally accesible with read-only permission." />
+  <meta name="description" content="The IoT Securoty Laboratory support GPU accelerated Machine Learning and Deep Learning research workloads. The power of this system is in its multiple state-of-the-art GPUs Nvidia A100 40GB. The IoT Security Laboratory servers are available for UTSA students, faculty and affiliated people to the laboratory. Currently, the only way to access them is through the UTSA Networks, either with a direct connection over WiFi or using the VPN. The system software support anaconda, which allows you to use a wide variety of python modules for different data processing frameworks, such a TensorFlow and PyTorch." />
 
     <title>Introduction | IoT Security Lab Docs</title>
 
@@ -39,8 +38,7 @@ In addition, there are directories for storing large datasets under /srv/dataset
     content="Introduction"
   />
   <meta property="og:site_name" content="IoT Security Lab Docs" />
-  <meta property="og:description" content="File Systems IoT Security lab servers mounts two shared ext4 file systems (FS) on which each user has corresponding node-specific directories $HOME and $WORK. In the login node, both FS are available, however, in the compute nodes, only the work directory is accessable. There is an alias to traverse between the FS, cdw to go to $WORK.
-In addition, there are directories for storing large datasets under /srv/datasets which are globally accesible with read-only permission." />
+  <meta property="og:description" content="The IoT Securoty Laboratory support GPU accelerated Machine Learning and Deep Learning research workloads. The power of this system is in its multiple state-of-the-art GPUs Nvidia A100 40GB. The IoT Security Laboratory servers are available for UTSA students, faculty and affiliated people to the laboratory. Currently, the only way to access them is through the UTSA Networks, either with a direct connection over WiFi or using the VPN. The system software support anaconda, which allows you to use a wide variety of python modules for different data processing frameworks, such a TensorFlow and PyTorch." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://iot-security-lab.github.io/basic/Introduction/" />
 
@@ -51,14 +49,13 @@ In addition, there are directories for storing large datasets under /srv/dataset
     />
     <meta
       property="article:modified_time"
-      content="2022-09-26T19:07:40-05:00"
+      content="2022-10-24T13:59:05-05:00"
     />
 
 
   <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Introduction" />
-  <meta name="twitter:description" content="File Systems IoT Security lab servers mounts two shared ext4 file systems (FS) on which each user has corresponding node-specific directories $HOME and $WORK. In the login node, both FS are available, however, in the compute nodes, only the work directory is accessable. There is an alias to traverse between the FS, cdw to go to $WORK.
-In addition, there are directories for storing large datasets under /srv/datasets which are globally accesible with read-only permission." />
+  <meta name="twitter:description" content="The IoT Securoty Laboratory support GPU accelerated Machine Learning and Deep Learning research workloads. The power of this system is in its multiple state-of-the-art GPUs Nvidia A100 40GB. The IoT Security Laboratory servers are available for UTSA students, faculty and affiliated people to the laboratory. Currently, the only way to access them is through the UTSA Networks, either with a direct connection over WiFi or using the VPN. The system software support anaconda, which allows you to use a wide variety of python modules for different data processing frameworks, such a TensorFlow and PyTorch." />
 
 
   <script type="application/ld+json">
@@ -69,8 +66,8 @@ In addition, there are directories for storing large datasets under /srv/dataset
       "name": "Introduction",
       "url" : "https://iot-security-lab.github.io/basic/Introduction/",
       "headline": "Introduction",
-      "description": "File Systems IoT Security lab servers mounts two shared ext4 file systems (FS) on which each user has corresponding node-specific directories $HOME and $WORK. In the login node, both FS are available, however, in the compute nodes, only the work directory is accessable. There is an alias to traverse between the FS, cdw to go to $WORK.\nIn addition, there are directories for storing large datasets under \/srv\/datasets which are globally accesible with read-only permission.",
-      "wordCount" : "156",
+      "description": "The IoT Securoty Laboratory support GPU accelerated Machine Learning and Deep Learning research workloads. The power of this system is in its multiple state-of-the-art GPUs Nvidia A100 40GB. The IoT Security Laboratory servers are available for UTSA students, faculty and affiliated people to the laboratory. Currently, the only way to access them is through the UTSA Networks, either with a direct connection over WiFi or using the VPN. The system software support anaconda, which allows you to use a wide variety of python modules for different data processing frameworks, such a TensorFlow and PyTorch.",
+      "wordCount" : "572",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -81,7 +78,7 @@ In addition, there are directories for storing large datasets under /srv/dataset
       "copyrightYear" : "2022",
       "dateCreated": "2022-09-20T21:04:57.00Z",
       "datePublished": "2022-09-20T21:04:57.00Z",
-      "dateModified": "2022-09-26T19:07:40.00Z",
+      "dateModified": "2022-10-24T13:59:05.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "IoT Security Lab Docs",
@@ -363,10 +360,10 @@ In addition, there are directories for storing large datasets under /srv/dataset
               
                 <span class="flex">
                   <a
-                    href="/basic/System-Overview/"
-                    class="gdoc-nav__entry"
+                    href="/basic/Introduction/"
+                    class="gdoc-nav__entry is-active"
                   >
-                    System Overview
+                    Introduction
                   </a>
                 </span>
               
@@ -376,6 +373,14 @@ In addition, there are directories for storing large datasets under /srv/dataset
             
           </li>
         
+      
+    
+      
+
+      
+        
+      
+
       
         
           
@@ -413,34 +418,13 @@ In addition, there are directories for storing large datasets under /srv/dataset
           </li>
         
       
+    
+      
+
+      
         
-          
-          
-          
-          
-          
-          
+      
 
-
-          <li>
-            <input
-              type="checkbox"
-              
-                class="hidden"
-              
-            />
-            <label
-              
-            >
-              
-                <span class="flex">FAQ</span>
-              
-              
-            </label>
-
-            
-          </li>
-        
       
         
           
@@ -462,14 +446,7 @@ In addition, there are directories for storing large datasets under /srv/dataset
               
             >
               
-                <span class="flex">
-                  <a
-                    href="/basic/Introduction/"
-                    class="gdoc-nav__entry is-active"
-                  >
-                    Introduction
-                  </a>
-                </span>
+                <span class="flex">FAQ</span>
               
               
             </label>
@@ -581,7 +558,10 @@ In addition, there are directories for storing large datasets under /srv/dataset
     class="gdoc-markdown gdoc-markdown__align--left"
   >
     <h1>Introduction</h1>
-    <div class="gdoc-page__anchorwrap">
+    <p>The IoT Securoty Laboratory support GPU accelerated Machine Learning and Deep Learning research workloads. The power of this system is in its multiple state-of-the-art GPUs Nvidia A100 40GB.
+The IoT Security Laboratory servers are available for UTSA students, faculty and affiliated people to the laboratory. Currently, the only way to access them is through the UTSA Networks, either with a direct connection over WiFi or using the VPN.
+The system software support anaconda, which allows you to use a wide variety of python modules for different data processing frameworks, such a TensorFlow and PyTorch.</p>
+<div class="gdoc-page__anchorwrap">
     <h2 id="file-systems">
         File Systems
         <a data-clipboard-text="https://iot-security-lab.github.io/basic/Introduction/#file-systems" class="gdoc-page__anchor clip flex align-center" title="Anchor to: File Systems" aria-label="Anchor to: File Systems" href="#file-systems">
@@ -590,7 +570,7 @@ In addition, there are directories for storing large datasets under /srv/dataset
     </h2>
 </div>
 <p>IoT Security lab servers mounts two shared ext4 file systems (FS) on which each user has corresponding node-specific directories <code>$HOME</code> and <code>$WORK</code>. In the login node, both FS are available, however, in the compute nodes, only the work directory is accessable. There is an alias to traverse between the FS, <code>cdw</code> to go to <code>$WORK</code>.</p>
-<p>In addition, there are directories for storing large datasets under <code>/srv/datasets</code> which are globally accesible with read-only permission. If you need a dataset available, please contact one of hte administrators.</p>
+<p>In addition, there are directories for storing large datasets under <code>/datasets</code> which are globally accesible with read-only permission. If you need a dataset available, please contact one of the administrators.</p>
 <div class="gdoc-page__anchorwrap">
     <h2 id="good-conduct">
         Good Conduct
@@ -601,9 +581,31 @@ In addition, there are directories for storing large datasets under /srv/dataset
 </div>
 <p>You share IoTSec servers with many, sometimes hundreds, of others users, and what you do on the system affects others. All users must follow a set of good practices which entail limiting activities that may impact the system for other users. Exercise good conduct to ensure that your activity does not adversely impact the system and the research community with whom you share it.</p>
 <div class="gdoc-page__anchorwrap">
-    <h2 id="administrators">
-        Administrators
-        <a data-clipboard-text="https://iot-security-lab.github.io/basic/Introduction/#administrators" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Administrators" aria-label="Anchor to: Administrators" href="#administrators">
+    <h2 id="system-architecture">
+        System Architecture
+        <a data-clipboard-text="https://iot-security-lab.github.io/basic/Introduction/#system-architecture" class="gdoc-page__anchor clip flex align-center" title="Anchor to: System Architecture" aria-label="Anchor to: System Architecture" href="#system-architecture">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<p>The IoTSec computations system consists of 2 mainly computing servers divided into nodes. A node is an abstraction to represent a virtual system designated for a specific purpose, for example, the login node which is shared among all users.</p>
+<p>Several users may be logged on at one time accessing the file systems. Dozens (sometimes hundreds) of jobs may be running on the login node and the resources are shared and equally divided in a first-come-first-server basis. In this way, the login nodes provide an interface to interact with any of the components and is the main point of entry.<br>
+Think of the login node as a prep area, where users may edit and manage files, compile short pieces of code, perform file management, issue transfers, submit and track existing jobs and more.</p>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Important"></i></div>
+  <div class="gdoc-hint__text"><strong>Do not run</strong> jobs or perform intensive computational activity on the login nodes or the shared file systems. Your account may be suspended if your jobs are impacting other users.</div>
+</blockquote>
+
+<p>In the other hand, the compute nodes are where actual computations occur and where research is performed. All batch jobs, as well as development and debuggin sessions, must be run on the compute nodes. To access the compute nodes, one must initate an interactive session opening a SSH session by running <code>ssh compute-node</code>.</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="system-specifications">
+        System Specifications
+        <a data-clipboard-text="https://iot-security-lab.github.io/basic/Introduction/#system-specifications" class="gdoc-page__anchor clip flex align-center" title="Anchor to: System Specifications" aria-label="Anchor to: System Specifications" href="#system-specifications">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h2>
@@ -611,14 +613,139 @@ In addition, there are directories for storing large datasets under /srv/dataset
 
 
 
-<span class="gdoc-button gdoc-button--large">
-  <a
-    class="gdoc-button__link" href="/"
-  >
-    Get Home
-  </a>
-</span>
+<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+  
+    <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+      <div class="gdoc-page__anchorwrap">
+    <h3 id="login-node">
+        Login Node
+        <a data-clipboard-text="https://iot-security-lab.github.io/basic/Introduction/#login-node" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Login Node" aria-label="Anchor to: Login Node" href="#login-node">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<div class="table-wrap"> <table>
+<thead>
+<tr>
+<th>Specification</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vCPU</td>
+<td>x8 Xeon Gold 5118</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>16GB DDR4 2400MHz</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td>1TB HDD Raid 0</td>
+</tr>
+<tr>
+<td>Network</td>
+<td>1Gbps Interface</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Ubuntu 22.04</td>
+</tr>
+<tr>
+<td>Kernel</td>
+<td>5.15</td>
+</tr>
+</tbody>
+</table> </div>
 
+    </div>
+  
+    <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+      <div class="gdoc-page__anchorwrap">
+    <h3 id="compute-nodes">
+        Compute Nodes
+        <a data-clipboard-text="https://iot-security-lab.github.io/basic/Introduction/#compute-nodes" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Compute Nodes" aria-label="Anchor to: Compute Nodes" href="#compute-nodes">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<div class="table-wrap"> <table>
+<thead>
+<tr>
+<th>Specification</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vCPU</td>
+<td>AMD Epyc 7302 3.3GHz 16C/32T</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>512GB DDR4 3200MHz</td>
+</tr>
+<tr>
+<td>TPU</td>
+<td>Nvidia A100 40GB HBM2e PCIe</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td>3.5TB NVMe SSD</td>
+</tr>
+<tr>
+<td>Network</td>
+<td>1Gbps Interface</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Ubuntu 20.04</td>
+</tr>
+<tr>
+<td>PSU</td>
+<td>Redundant 2000 Watts</td>
+</tr>
+<tr>
+<td>Kernel</td>
+<td>5.4</td>
+</tr>
+<tr>
+<td>CUDA</td>
+<td>11.1</td>
+</tr>
+</tbody>
+</table> </div>
+
+    </div>
+  
+</div>
+
+<div class="gdoc-page__anchorwrap">
+    <h2 id="administrators">
+        Administrators
+        <a data-clipboard-text="https://iot-security-lab.github.io/basic/Introduction/#administrators" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Administrators" aria-label="Anchor to: Administrators" href="#administrators">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<p>You can contact any of the administrator via email. Make sure to use your official student email since external email domains will be ignored for security reasons.</p>
+<div class="gdoc-page__anchorwrap">
+    <h4 id="kevin-email-cse894-at-my-utsa-">
+        Kevin email: cse894 [at] my utsa &hellip;
+        <a data-clipboard-text="https://iot-security-lab.github.io/basic/Introduction/#kevin-email-cse894-at-my-utsa-" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Kevin email: cse894 [at] my utsa &hellip;" aria-label="Anchor to: Kevin email: cse894 [at] my utsa &hellip;" href="#kevin-email-cse894-at-my-utsa-">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h4>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h4 id="desiree-email-fnw920-at-my-utsa-">
+        Desiree email: fnw920 [at] my utsa &hellip;
+        <a data-clipboard-text="https://iot-security-lab.github.io/basic/Introduction/#desiree-email-fnw920-at-my-utsa-" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Desiree email: fnw920 [at] my utsa &hellip;" aria-label="Anchor to: Desiree email: fnw920 [at] my utsa &hellip;" href="#desiree-email-fnw920-at-my-utsa-">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h4>
+</div>
 
   </article>
 

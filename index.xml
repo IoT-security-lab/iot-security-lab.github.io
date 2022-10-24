@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Sep 2022 18:00:57 -0500</lastBuildDate><atom:link href="https://iot-security-lab.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Introduction</title>
+      <link>https://iot-security-lab.github.io/basic/Introduction/</link>
+      <pubDate>Tue, 20 Sep 2022 21:04:57 -0500</pubDate>
+      
+      <guid>https://iot-security-lab.github.io/basic/Introduction/</guid>
+      <description>The IoT Securoty Laboratory support GPU accelerated Machine Learning and Deep Learning research workloads. The power of this system is in its multiple state-of-the-art GPUs Nvidia A100 40GB. The IoT Security Laboratory servers are available for UTSA students, faculty and affiliated people to the laboratory. Currently, the only way to access them is through the UTSA Networks, either with a direct connection over WiFi or using the VPN. The system software support anaconda, which allows you to use a wide variety of python modules for different data processing frameworks, such a TensorFlow and PyTorch.</description>
+    </item>
+    
+    <item>
       <title>Access</title>
       <link>https://iot-security-lab.github.io/basic/Access/</link>
       <pubDate>Fri, 23 Sep 2022 13:04:57 -0500</pubDate>
@@ -24,26 +33,6 @@ However, you can also access a graphical user interface (GUI) by using the NoMac
       
       <guid>https://iot-security-lab.github.io/basic/FAQ/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction</title>
-      <link>https://iot-security-lab.github.io/basic/Introduction/</link>
-      <pubDate>Tue, 20 Sep 2022 21:04:57 -0500</pubDate>
-      
-      <guid>https://iot-security-lab.github.io/basic/Introduction/</guid>
-      <description>File Systems IoT Security lab servers mounts two shared ext4 file systems (FS) on which each user has corresponding node-specific directories $HOME and $WORK. In the login node, both FS are available, however, in the compute nodes, only the work directory is accessable. There is an alias to traverse between the FS, cdw to go to $WORK.
-In addition, there are directories for storing large datasets under /srv/datasets which are globally accesible with read-only permission.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://iot-security-lab.github.io/basic/System-Overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot-security-lab.github.io/basic/System-Overview/</guid>
-      <description>System Architecture The IoTSec computations system consists of 2 mainly computing servers divided into nodes. A node is an abstraction to represent a virtual system designated for a specific purpose, for example, the login node which is shared among all users.
-Several users may be logged on at one time accessing the file systems. Dozens (sometimes hundreds) of jobs may be running on the login node and the resources are shared and equally divided in a first-come-first-server basis.</description>
     </item>
     
   </channel>
